@@ -1,0 +1,25 @@
+# Install and enable notebook extensions
+jupyter contrib nbextension install --user
+jupyter nbextension enable init_cell/main
+jupyter nbextension enable python-markdown/main
+
+# Trust notebooks that auto-run code (init cells, etc.)
+jupyter trust gateway-lesson/gateway/gateway-1.ipynb
+jupyter trust gateway-lesson/gateway/gateway-2.ipynb
+jupyter trust gateway-lesson/gateway/gateway-3.ipynb
+jupyter trust gateway-lesson/gateway/gateway-4.ipynb
+jupyter trust gateway-lesson/gateway/gateway-5.ipynb
+jupyter trust gateway-lesson/gateway/gateway-6.ipynb
+jupyter trust gateway-lesson/gateway/gateway-exploration.ipynb
+
+jupyter trust beginner-lessons/spatial-modeling-analytics/sma-1.ipynb
+jupyter trust beginner-lessons/spatial-modeling-analytics/sma-2.ipynb
+jupyter trust beginner-lessons/spatial-modeling-analytics/sma-3.ipynb
+jupyter trust beginner-lessons/spatial-modeling-analytics/sma-4.ipynb
+jupyter trust beginner-lessons/spatial-modeling-analytics/sma-5.ipynb
+jupyter trust beginner-lessons/spatial-modeling-analytics/sma-exploration.ipynb
+jupyter trust beginner-lessons/spatial-modeling-analytics/try_it1_sma.ipynb
+jupyter trust beginner-lessons/spatial-modeling-analytics/try_it2_sma.ipynb
+
+sh setupHourofCI
+
