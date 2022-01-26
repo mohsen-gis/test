@@ -12,7 +12,6 @@ dependencies:
   
   - pip:
     - jupyter_contrib_nbextensions
-    - jupyterlab_scenes
     - numpy
     - pandas
     - utm
