@@ -1,6 +1,6 @@
 # lessons
 
-Cyberinfrastructure Lesson: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mohsen-gis/test/master?filepath=beginner-lessons/cyberinfrastructure/Cyberinfrastructure-3.ipynb) <br/>
+Cyberinfrastructure Lesson: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mohsen-gis/test/master?filepath=beginner-lessons/cyberinfrastructure/cyberinfrastructure-3.ipynb) <br/>
 Interdisciplinary Communication: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mohsen-gis/test/master?filepath=beginner-lessons/interdisciplinary-communication/Welcome.ipynb)<br/>
 Geospatial Data: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mohsen-gis/test/master?filepath=beginner-lessons/geospatial-data/Welcome.ipynb)<br/>
 
