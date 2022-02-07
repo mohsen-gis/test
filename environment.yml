@@ -1,27 +1,26 @@
-name: gisandbox
+name: Lessons-dev MyBinder Test
+
 channels:
   - conda-forge
 dependencies:
-  - python
+  - python=3.7
   - pip
-  - rise
   - gdal
+  - rise
   - fiona  
   - rasterio
-  - pillow
-  - ipyleaflet
-  - osmnx
-  - mapclassify
-  - mplleaflet
+  
   - pip:
-          # - numpy
-          # - scipy
-          # - pandas
-          # - keplergl
     - jupyter_contrib_nbextensions
+    - numpy
+    - pandas
+    - utm
     - geopandas
     - shapely
     - folium
+    - pysal
     - matplotlib
-    - tensorflow
-    - mordecai
+    - matplotlib_scalebar
+    - osmnx
+    - earthpy
+    - ipyleaflet
