@@ -2,6 +2,7 @@
 jupyter contrib nbextension install --user
 jupyter nbextension enable init_cell/main
 jupyter nbextension enable python-markdown/main
+jupyter nbextension enable --py --sys-prefix ipyleaflet
 
 
 # Trust all Hour of CI notebooks to improve learner experience
